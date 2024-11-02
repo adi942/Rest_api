@@ -63,6 +63,8 @@ def create_app(db_url=None):
             401,
         )
 
+
+
     with app.app_context():
         import models1
         db.create_all()

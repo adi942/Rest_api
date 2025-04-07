@@ -1,4 +1,10 @@
-NAME=$1
-LNAME=$2
+FIRST_NAME=$1
+LAST_NAME=$2
+SHOW=$3
 
-echo "Hello, $NAME $LNAME"
+if ["$SHOW" = "true"]; then
+  echo "Hello, $FIRST_NAME $LAST_NAME"
+else
+  echo "please mark the show option"
+fi
+

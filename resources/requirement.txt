@@ -1,0 +1,2 @@
+# You can leave it empty or add something lightweight like:
+requests
